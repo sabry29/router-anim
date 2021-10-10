@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap");
+
+body {
+	font-family: "El Messiri", sans-serif;
+	width: 1500px;
+	margin: 20px auto;
+}
+
+.MovieList {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Movie {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+
+.MoviePoster {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.MovieData {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.MovieForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.MovieForm input {
+	width: 83%;
+	margin-bottom: 15px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.FormBtn {
+	width: 83.5%;
+	margin-bottom: 50px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.SearchForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.SearchForm input {
+	width: 83%;
+	margin-bottom: 15px;
+	font-family: "El Messiri", sans-serif;
+}
+
+.SearchForm button {
+	width: 83.5%;
+	margin-bottom: 50px;
+	font-family: "El Messiri", sans-serif;
+}
